@@ -1,0 +1,24 @@
+{
+  "name": "schoolapi",
+  "version": "1.0.0",
+  "description": "Api para el proyecto de la escuela",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node server/server.ts",
+    "dev": "./node_modules/nodemon/bin/nodemon.js",
+    "build": "tsc"
+  },
+  "author": "Miguel Aponte",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.1",
+    "nodemon": "^1.19.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
